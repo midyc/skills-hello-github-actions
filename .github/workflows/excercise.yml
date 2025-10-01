@@ -6,7 +6,7 @@ jobs:
     container: gradle:6-jdk11
     steps:
       - name: Clone down repository
-        uses: actions/checkout@v4       
+        uses: actions/checkout@v5       
       - name: Build application
         run: ci/build-app.sh
       - name: Test
